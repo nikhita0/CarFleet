@@ -1,0 +1,111 @@
+﻿<html>
+	<head>
+		<title>HOME</title>
+		<link rel = "stylesheet" type = "text/css" href = "actualproma.css"></link>
+	</head>
+	<body>
+	<img src = "cover3.jpg" width = "100%">
+	<div class = "navbar">
+			<a href = "file:///E:/project/car/mypro.html">Home</a>
+			<a href = "newcars.html">New Cars</a>
+			<a href = "reviews.html">News and Reviews</a>
+			<a href = "carcompare.html">Compare Cars</a>
+			<a href = "insurance.html">Insurance</a>
+			<a href = "form.html">Registartion Form</a>
+	</div>
+	<div class = "imageslider">
+		<img class="mySlides" src="baleno.jpg">
+		<img class="mySlides" src="brv.jpg">
+		<img class="mySlides" src="creta.jpg">
+		<img class="mySlides" src="kuv100.jpg">
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 2500);    
+	}
+	</script>
+	<div class = "formbord">
+	<h5 style="color:#cc6600;font-family:Arial;font-size:20px">Check on road Price Now!!</h5>
+	<form class = "onroad">
+		<br />
+		<br />
+		<select>
+		<option>Select City</option>
+		<option>Mumbai</option>
+		<option>Delhi</option>
+		<option>Chennai</option>
+		<option>Kolkota</option>
+		<option>Bangalore</option>
+		</select>
+		<br />
+		<br />
+		<input type="submit" value = "Check Now">
+	</form>
+	</div>
+	<h2 style="color:#002e4d;font-family:Comic-sans;font-size:30px;text-align:center">FEATURED CARS</h2>
+	<div class = "rowimageinfo">
+	<table class = "colrow">
+	<tr>
+		<td id = "image1"><img src="baleno.jpg" class = "imgss"><br /><br />
+			<label id = "names">Maruti Suzuki Baleno</label>
+			<br /><p style="font-size:25px" id = "p1">₹ 5.35 Lakhs Onwards</p>
+			<br /><p id = "p1">Avg. Ex-showroom Price</p></td>
+		<td id = "image1"><img src="creta.jpg" class = "imgss"><br />
+			<br /><label id = "names">Hyundai Creta</label>
+			<br /><p style="font-size:25px" id = "p1">₹ 9.16 Lakhs Onwards</p>
+			<br /><p id = "p1">Avg. Ex-showroom Price</p></td>
+		<td id = "image1"><img src="kuv100.jpg" class = "imgss" ><br />
+			<br /><label id = "names">Mahindra KUV100</label>
+			<br /><p style="font-size:25px" id = "p1">₹ 4.7 Lakhs Onwards</p>
+			<br /><p id = "p1">Avg. Ex-showroom Price</p></td>
+		
+	</tr>
+	</table>
+	</div>
+	<h2 style="color:#002e4d;font-family:Comic-sans;font-size:30px;text-align:center"><marquee>TOP 10 CARS IN INDIA</marquee></h2>
+	<table class = "colrow">
+	<tr>
+		<td id = "image1"><img src="grandi10.jpg" class = "imgss"><br /><br />
+			<label id = "names">Top 10 Hatchbacks in India</label>
+			<br /><p id = "p1">Maruti Suzuki Baleno,Maruti Suzuki Swift</p></td>
+		<td id = "image1"><img src="verna.jpg" class = "imgss"><br />
+			<br /><label id = "names">Top 10 Sedans in India</label>
+			<br /><p id = "p1">Hyundai Verna,Honda City</p></td>
+		<td id = "image1"><img src="nexon.jpg" class = "imgss"><br />
+			<br /><label id = "names">Top 10 MUV/SUV in India</label>
+			<br /><p id = "p1">Maruti Suzuki Vitara Breeza,Tata Nexon</p></td>
+		<td id = "image1"><img src="brv.jpg" class = "imgss"><br />
+			<br /><label id = "names">Top 10 MUV/SUV in India</label>
+			<br /><p id = "p1">Maruti Suzuki BR-V</p></td>
+	</tr>
+	</table>
+	
+	<div class = "pageend">
+		<h4>Support</h4>
+		<u><a href = "http://www.carfleet.com">www.carfleet.com</a></u>
+		<h4>Company</h4>
+			<a href="aboutus.html"><p><u>About us</p></a>
+			<a href="contact.html">  <p>Contact</p></a>
+			<a href="adverstise.html">  <p>Advertise with us</p></a>
+			<a href="sitemap.html"> <p>Site map</u></p></a>
+		<h4>Join Us On</h4>
+		<a href="https://twitter.com/login?lang=en"><img src = "twitter.jpg" ></a>
+		<a href="https://plus.google.com/discover"><img src = "google.jpg"></a>
+		<a href="https://www.facebook.com/pages/Car-Spaa/122834278383685?created&ref_type=pages_browser"><img src = "facebook.jpg"></a>
+		
+		
+	</div>
+	</body>
+<html>
